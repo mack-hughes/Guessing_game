@@ -8,6 +8,7 @@ int main() {
     int secretvalue = 42;
     int guess;
     int play_again = 1;
+    int number_of_attempts = 1;
 
 
     // Header
@@ -23,7 +24,8 @@ int main() {
 
 
         if(guess == secretvalue){
-            printf("Congratulations! You nailed it\n");
+            printf("Congratulations! You nailed it on the %d time\n", number_of_attempts);
+            break;
         }
         else{
             printf("You missed!\n");
@@ -38,7 +40,7 @@ int main() {
             printf("Do you wanna play again (1/0)? \n");
             scanf("%d", &play_again);
         }
+        number_of_attempts++;
     }
-
-    printf("End game!");
+    printf("End game!\n");
 }
