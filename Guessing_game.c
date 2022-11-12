@@ -11,8 +11,6 @@ int main() {
     int number_of_attempts = 1;
     double punctuation = 1000;
 
-    // 1
-    // 2
 
     // Header
     printf("********************************\n");
