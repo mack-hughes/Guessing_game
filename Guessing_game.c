@@ -13,7 +13,7 @@ int main() {
     int number_of_attempts = 1;
     double punctuation = 1000;
 
-    // Adicionando um linha de test
+    // 1
 
     // Header
     printf("********************************\n");
