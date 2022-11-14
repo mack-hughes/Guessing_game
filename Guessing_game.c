@@ -10,7 +10,8 @@ int main() {
     int play_again = 1;
     int number_of_attempts = 1;
     double punctuation = 1000;
-
+    
+    // after adding of stash
 
     // Header
     printf("********************************\n");
